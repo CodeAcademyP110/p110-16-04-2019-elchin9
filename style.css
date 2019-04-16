@@ -1,0 +1,239 @@
+p {
+	margin:0;
+}
+.google{
+	display: flex;
+	align-items: center;
+}
+.wrapper{
+	width:300px;
+	border-radius: 5px;
+    box-shadow: 0px 0px 15px 1px rgba(181,181,181,1);
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: white;
+}
+.heading{
+    border-bottom: 1px solid lightgray;
+    width: 100%;
+    padding: 10px 0;
+}
+.heading1{
+    width: 100%;
+    padding-top:8px;
+}
+.footer{
+	width: 100%;
+    padding: 10px 0;
+}
+.docs,
+.sheets,
+.slides,
+.more{
+	padding:5px 20px 5px 20px;
+	cursor: pointer;
+}
+.docs i:last-child,
+.sheets i:last-child,
+.slides i:last-child,
+.more i{
+	color:lightgray;
+	width: 40px;
+	border-left: 1px solid lightgray;
+	padding-left: 15px;
+}
+.docs i:last-child:hover,
+.sheets i:last-child:hover,
+.slides i:last-child:hover,
+.more i:hover{
+	color:gray;
+	border-left: 1px solid gray;
+}
+.docs:hover,
+.sheets:hover,
+.slides:hover,
+.more:hover{
+	background: #F1F3F4;
+}
+.docs i:first-child{
+	width: 20px;
+	font-size: 15px;
+	height: 20px;
+	padding-top: 2px;
+	color: white;
+	background: #1A73E8;
+	margin-right: 10px;
+	text-align: center;
+}
+.sheets i:first-child{
+	width: 20px;
+	font-size: 15px;
+	height: 20px;
+	padding-top: 2px;
+	color: white;
+	background: #0F9D58;
+	margin-right: 10px;
+	text-align: center;
+}
+.slides i:first-child{
+	width: 20px;
+	font-size: 15px;
+	height: 20px;
+	padding-top: 2px;
+	color: white;
+	background: #ef8837;
+	margin-right: 10px;
+	text-align: center;
+}
+.more p{
+	margin-left: 30px;
+}
+.head{
+	padding: 10px 20px;
+	cursor: pointer;
+}
+.head i{
+	font-size: 20px;
+	color: #8F8F8F;
+	margin-right: 10px;
+}
+.head:hover{
+	background: #F1F3F4;
+}
+.main1{
+	padding: 5px 20px 5px 20px;
+	cursor: pointer;
+}
+.main{
+	padding:5px 20px 5px 20px;
+	cursor: pointer;
+}
+.main i{
+	width: 20px;
+	font-size: 20px;
+	color: #8F8F8F;
+	margin-right: 10px;
+	text-align: center;
+}
+.main1 i{
+	width: 20px;
+	font-size: 20px;
+	color: #8F8F8F;
+	margin-right: 10px;
+	text-align: center;
+}
+.main:hover{
+	background: #F1F3F4;
+}
+.main1:hover{
+	background: #F1F3F4;
+}
+.folderMain{
+	margin-top: 10px;
+	padding:10px;
+	width: 100%;
+}
+.folderItem{
+	width: 250px;
+	height: 50px;
+	padding: 3px 10px;
+	display: flex;
+    align-items: center;
+	color: #5f5454;
+	font-size: 15px;
+	border:1px solid #5f5454;
+	border-radius: 10px;
+	font-weight: bold;
+	margin: 10px 10px;
+	cursor: pointer;
+}
+.folderItem:hover{
+	background: #F1F3F4;
+}
+.foldersHeading{
+	position: relative;
+}
+img.trash{
+	width: 40px;
+	height: 40px;
+}
+img.trashLid{
+	width: 39px;
+	height: 17px;
+	position: absolute;
+	top: -18px;
+	right: 2px;
+}
+.folderItem i{
+	margin-right: 10px;
+	font-size: 18px;
+}
+.folderBlue{
+	background: #E8F0FE;
+}
+.newFolder{
+	position: fixed;
+	top:0;
+	left: 50%;
+	transform: translateX(-50%);
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	display: none;
+}
+.createFolder{
+	width: 400px;
+	padding: 20px 20px;
+	position: fixed;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	left: 50%;
+	background: white;
+}
+.create p{
+	font-size: 20px;
+}
+.closed{
+	transition: all .2s;
+	cursor: pointer;
+}
+.closed:hover{
+	color: red;
+}
+.createFolder input{
+	width: 100%;
+	margin-top: 30px;
+}
+.buttonGroup{
+	padding:15px 0px 0px 0px;
+}
+.cancel{
+	width: 100px;
+	height: 35px;
+	background: transparent;
+	border:none;
+	font-weight: 500;
+	margin-right: 15px;
+	transition: all .2s;
+	font-size: 15px;
+	cursor: pointer;
+}
+.createButton{
+	width: 100px;
+	height: 35px;
+	background: #4285F4;
+	color: white;
+	border:none;
+	font-weight: 500;
+	border-radius: 5px;
+	font-size: 15px;
+	cursor: pointer;
+}
+.cancel:hover{
+	box-shadow: 0px 0px 15px 1px rgba(181,181,181,1);
+	border-radius: 5px;
+	background: #F5F5F5;
+}

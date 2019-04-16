@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row mt-5">
+			<div class="col">
+				<div class="allFolders">
+					<div class="foldersHeading d-flex justify-content-between">
+						<p>Folders :</p> 
+					</div>
+					<div class="folderMain d-flex flex-wrap">
+                        <div class="folderItem d-flex align-items-center">
+                            <i class="fas fa-folder"></i>
+                            <p>Aftandil</p>
+                        </div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="wrapper">
+		<div class="heading">
+		    <div class="head d-flex align-items-center">
+			    <i class="fas fa-folder-plus"></i>
+			    <p>New Folder</p>
+		    </div>
+		</div>
+	    <div class="heading1">
+		    <div class="main1 d-flex align-items-center">
+				<i class="fas fa-file-upload"></i>
+			    <p>Upload File</p>
+	        </div>
+	    </div>
+	    <div class="heading">
+	    	<div class="main d-flex align-items-center">
+			    <i class="fas fa-folder"></i>
+			    <p>Upload Folder</p>
+		    </div>
+		</div>
+		<div class="footer">
+		    <div class="docs d-flex align-items-center justify-content-between">
+		    	<div class="google">
+		    		<i class="fas fa-align-justify"></i>
+			        <p>Google Docs</p>
+		    	</div>
+			    <i class="fas fa-chevron-right"></i>
+		    </div>
+		    <div class="sheets d-flex align-items-center justify-content-between">
+		    	<div class="google">
+			        <i class="fas fa-th-list"></i>
+			        <p>Google Sheets</p>
+			    </div>
+			    <i class="fas fa-chevron-right"></i>
+		    </div>
+		    <div class="slides d-flex align-items-center justify-content-between">
+		    	<div class="google">
+			        <i class="fas fa-table"></i>
+			        <p>Google Slides</p>
+			    </div>
+			    <i class="fas fa-chevron-right"></i>
+		    </div>
+		    <div class="more d-flex justify-content-between align-items-center">
+			    <p>More</p>
+			    <i class="fas fa-chevron-right"></i>
+		    </div>
+		</div>
+	</div>
+	<div class="newFolder">
+		<div class="createFolder">
+			<div class="create d-flex align-items-center justify-content-between">
+				<p>New Folder</p>
+				<i class="fas fa-times closed"></i>
+			</div>
+			<input type="text" value="Untitled folder" class="myInput">
+			<div class="buttonGroup d-flex justify-content-end">
+				<button class="cancel">CANCEL</button>
+				<button class="createButton">CREATE</button>
+			</div>
+		</div>	
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
